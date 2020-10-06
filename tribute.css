@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Suez+One|Open+Sans&display=swap');
+
+body {
+    line-height: 1.4em;
+    font-size: 1em;
+    background-color: #B0C9D4;
+    font-family: "Open sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #6E9DB0;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+}
+
+figure, img {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+
+h1 {
+    font-family: "Suez One", sans-serif;
+    letter-spacing: 0.1em;
+}
+
+figcaption, h1 {
+    text-align: center;
+    color: #19333D;
+}
+
+figcaption {
+    font-size: 0.7em;
+    line-height: 1em;
+}
+
+blockquote {
+    display: block;
+    padding-left: 40%;
+    text-align: right;
+    font-style: italic;
+    font-size: 0.9em;
+    color: #416776;
+}
+
+article {
+    background-color: #FFF;
+    padding: 0.2em;
+    border-radius: 5px;
+}
+
+article p {
+    text-align: justify;
+}
+
+article strong {
+    color: #416776;
+}
+
+.notes {
+    font-size: 0.8em;
+    line-height: 1em;
+}
+
+ul {
+    margin: 0em;
+    padding: 0em;
+}
+li {
+    list-style-type: none;
+    margin-bottom: 0.4em;
+}
+
+@media (min-width: 900px) {
+    main {
+      max-width: 70%;
+      margin: auto;
+    }
+
+    article {
+      font-size: 1.3em;
+      line-height: 1.2em;
+    }
+    
+    h1 {
+      font-size: 4em;
+    }
+
+    figcaption {
+      font-size: 1em;
+    }
+
+    blockquote {
+      font-size: 1.5em;
+      line-height: 1em;
+    }
+
+    .notes {
+      font-size: 0.8em;
+    }
+}
